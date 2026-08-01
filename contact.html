@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+      * {
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Oxygen,
+          Ubuntu,
+          Cantarell,
+          "Open Sans",
+          "Helvetica Neue",
+          sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Awesome Blog</h1>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <h2>Contact Us</h2>
+      <form action="action.html">
+        <div>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required />
+        </div>
+        <br />
+        <div>
+          <label for="phone">Phone Number:</label><br />
+          <input
+            type="tel"
+            pattern="[0-9]{10}"
+            maxlength="10"
+            minlength="10"
+            title="Please enter exactly 10 digits"
+            id="phone"
+            name="phone"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="msg">Message:</label><br />
+          <textarea name="msg" id="msg" cols="30" rows="4" required></textarea>
+        </div>
+        <br />
+        <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
