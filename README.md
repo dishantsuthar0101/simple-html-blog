@@ -4,7 +4,7 @@ A beginner-friendly multi-page blog website built using **HTML5** to practice se
 
 ## 🚀 Live Demo
 
-https://dishantsuthar0101.github.io/simple-html-blog/
+ https://dishantsuthar-tech.github.io/simple-html-blog/
 
 ## ✨ Features
 
